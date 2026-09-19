@@ -1,0 +1,9 @@
+Model,Type,MAE,RMSE,MAPE (%),R2,Evaluation Protocol,RMSE Improvement vs Prev Hour (%)
+Random Forest,Machine Learning,53.89,70.99,0.946,0.99489,Rolling one-step,65.80607870526468
+LightGBM,Gradient Boosting,55.06,73.41,0.957,0.99454,Rolling one-step,64.64043157844034
+XGBoost,Gradient Boosting,55.25,76.53,0.955,0.99407,Rolling one-step,63.137613795096584
+LSTM,Deep Learning,77.9,100.96,1.387,0.98967,Rolling one-step,51.370357882568285
+Previous Hour Baseline,Baseline,163.87,207.61,2.933,0.95634,Rolling one-step,0.0
+Previous Day Baseline,Baseline,382.63,501.35,6.663,0.74538,Rolling one-step,-141.48644092288424
+Previous Week Baseline,Baseline,612.08,817.53,10.505,0.32294,Rolling one-step,-293.78160974904864
+ARIMA,Statistical,896.09,1085.14,17.142,-0.19275,Long multi-step,-422.6819517364289
